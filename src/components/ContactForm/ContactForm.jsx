@@ -36,7 +36,7 @@ const ContactForm = ({ onAdd }) => {
                     <Field type="phone" name="number" id="number" />
                     <ErrorMessage name="number" component="span" />
                 </div>
-                <button type="submit">Add task</button>
+                <button type="submit">Add contact</button>
             </Form>
         </Formik>
   );
